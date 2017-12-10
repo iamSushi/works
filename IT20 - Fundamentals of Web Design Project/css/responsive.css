@@ -1,0 +1,318 @@
+@media (max-width: 980px){
+	/* -- index footer -- */
+	.footer-hr{
+		margin: 10px 80px 10px 80px; 
+	}
+	/*-- news --*/
+	div > .newsmain-content{
+		width: 100%;
+	}
+	/* -- aboutus --*/
+	.aboutmain-container{
+		width: 100%;
+		padding: 30px 0;
+	}
+	/* -- menu -- */
+	.menu-container{
+		width: 100%;
+		padding-top: 150px;
+	}
+	.menu-subdiv{
+		width: 100%;
+	}
+	.menu-subdiv > img{
+		float: left;
+		padding: 10px 10px 0 10px;
+	}
+	/* -- ideas -- */
+	.ideasmain-container{
+		width: 100%;
+		padding: 30px 0;
+		background-color: #f7f8f9;
+	}
+	.ideasmain-head > h1{
+		padding: 10px 0 0 30px;
+	}
+	.ideasmain-container > div > h2{
+		padding: 5px 30px;
+	}
+	.ideasmain-container > div > p{
+		padding: 5px 30px;
+	}
+	/*-- volunteer --*/
+	.volunteermain-container{
+		width: 100%;
+		padding: 50px 0;
+	}
+	.volunteermain-container > h1{
+		padding: 0 30px;
+	}
+	.volunteermain-container > h2{
+		padding: 0 30px;
+	}
+	.volunteermain-container > p{
+		padding: 0 30px;
+	}
+	/* -- movements -- */
+	.movemain-container{
+		width: 100%;
+		padding: 0;
+	}
+	.movemain-container > h1{
+		padding: 50px 0 0 30px;
+	}
+	.movemain-container > p{
+		padding: 0 30px 30px 30px;
+	}
+	/*-- community --*/
+	.community-container{
+		width: 100%;
+		padding-top: 150px;
+	}
+	.community-container > div{
+		width: 100%;
+	}
+	.community-container > div > img{
+		float: left;
+		padding: 10px;
+	}
+	.community-subdiv{
+		width: 300px;
+		margin: 0;
+	}
+	/* -- jobs -- */
+	.jobsmain-container{
+		width: 100%;
+		padding: 0;
+	}
+	.jobsmain-container > div{
+		padding: 30px 30px 0 30px;
+	}
+	/* -- donation -- */
+	.donationmain-container{
+		width: 100%;
+		padding: 0;
+	}
+	.donationmain-container > h1{
+		padding: 50px 30px 0 30px;
+	}
+	.donationmain-container p{
+		padding: 0 30px;
+	}
+}	
+@media (max-width: 680px){
+	/* -- index footer -- */
+	.footer-hr{
+		margin: 10px 50px 10px 50px; 
+	}
+	/* -- header -- */
+	.header-div{
+		width: 100%;
+		height: 200px;
+		background-color: rgba(0,0,0,.5);
+	}
+	.header-title{
+		width: 100%;
+		margin-left: 0px;
+		padding-left: 15px;
+		margin-right: 10px;
+		background-color: #1c2128;
+	}
+	.header-list > li{
+		float: none;
+		display: block;
+		overflow: hidden;
+		text-align: left;
+		padding-left: 15px;
+	}
+	/* -- main -- */
+	.main-div{
+		position: fixed;
+	}
+	.main-img{
+		width: 500px;
+		height: 100px;
+	}
+	.main-img{
+		width: 500px;
+		height: 120px;
+	}
+	/* -- news -- */
+	.newsmain-text{
+		padding-top: 200px;
+	}
+	/* -- aboutus -- */
+	.aboutmain-container > div{
+		width: 100%;
+		padding: 10px 0;
+	}
+	.aboutmain-text{
+		padding-top: 200px;
+	}
+	/* -- menu -- */
+	.menu-container{
+		padding-top: 250px;
+	}
+	/* -- ideas -- */
+	.ideasmain-text{
+		padding-top: 200px;
+	}
+	/* -- volunteer -- */
+	.volunteermain-text{
+		padding-top: 200px;
+	}
+	/* -- movement -- */
+	.movementmain-text{
+		padding-top: 200px;
+	}
+	/*-- community --*/
+	.community-container{
+		width: 100%;
+		padding-top: 250px;
+	}
+	/* -- jobs -- */
+	.jobmain-text{
+		padding-top: 200px;
+	}
+	/* -- donations -- */
+	.donationmain-text{
+		padding-top: 200px;
+	}
+}
+@media (max-width: 530px){
+	/* -- index -- */
+	.main-img{
+		width: 350px;
+		height: 100px;
+	}
+	.out{
+		padding: 5px 20px 10px 20px;
+	}
+	/* -- news -- */
+	.newsmain-text{
+		padding-top: 210px;
+		font-size: 60pt;
+	}
+	/* -- aboutus -- */
+	.aboutmain-text{
+		padding-top: 210px;
+		font-size: 60pt;
+	}
+	/* -- ideas -- */
+	.ideasmain-text{
+		padding-top: 210px;
+		font-size: 60pt;
+	}
+	/* -- volunteer -- */
+	.volunteer-pindent{
+		margin-left: 0;
+	}
+	/* -- movements -- */
+	.movementmain-text{
+		padding-top: 210px;
+		font-size: 60pt;
+	}
+	/* -- jobs -- */
+	.jobmain-text{
+		padding-top: 210px;
+		font-size: 60pt;
+	}
+	.job-list{
+		margin-left: 20px;
+	}
+	/* -- donations -- */
+	.donationmain-text{
+		padding-top: 210px;
+		font-size: 60pt;
+	}
+}
+@media (max-width: 465px){
+	.footer-list > li{
+		display: block;
+		margin-top: 10px;
+	}
+	.footer-list > .none{
+		display: none;
+	}
+	/* -- news -- */
+	.newsmain-content > p{
+		text-align: justify;
+	}
+	.newsmain-text{
+		padding-top: 220px;
+		font-size: 50pt;
+	}
+	/* -- aboutus -- */
+	.aboutmain-text{
+		font-size: 50pt;
+		padding-top: 220px;
+	}
+	/*--ideas--*/
+	.ideasmain-text{
+		padding-top: 220px;
+		font-size: 50pt;
+	}
+	/*--volunteer --*/
+	.volunteermain-text{
+		padding-top: 220px;
+		font-size: 50pt;
+	}
+	/* -- movements -- */
+	.movementmain-text{
+		padding-top: 220px;
+		font-size: 50pt;
+	}
+	/* -- jobs -- */
+	.jobmain-text{
+		padding-top: 220px;
+		font-size: 50pt;
+	}
+	.job-list{
+		margin-left: 10px;
+	}
+	/* -- donations -- */
+	.donationmain-text{
+		padding-top: 220px;
+		font-size: 50pt;
+	}
+}
+@media (max-width: 380px){
+	/* -- news -- */
+	.newsmain-list > li{
+		margin-left: 0;
+	}
+	.newsmain-text{
+		padding-top: 230px;
+		font-size: 40pt;
+	}
+	/* -- aboutus -- */
+	.aboutmain-text{
+		font-size: 40pt;
+		padding-top: 230px;
+	}
+	/* -- ideas -- */
+	.ideasmain-text{
+		font-size: 40pt;
+		padding-top: 230px;
+	}
+	/* -- volunteer -- */
+	.volunteermain-text{
+		font-size: 40pt;
+		padding-top: 230px;
+	}
+	/* -- movements -- */
+	.movementmain-text{
+		padding-top: 230px;
+		font-size: 40pt;
+	}
+	/* -- jobs -- */
+	.jobmain-text{
+		padding-top: 230px;
+		font-size: 40pt;
+	}
+	/* -- donations -- */
+	.donationmain-text{
+		padding-top: 230px;
+		font-size: 40pt;
+	}
+}
